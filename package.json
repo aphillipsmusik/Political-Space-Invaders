@@ -1,0 +1,30 @@
+{
+  "name": "niftysmart",
+  "version": "1.0.0",
+  "description": "Niftysmart =====",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.niftysmart.headhunters",
+    "productName": "Head Hunters",
+    "files": ["index.html", "main.js"],
+    "win": {
+      "target": "portable",
+      "icon": "icon.png"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:34299/git/aphillipsmusik/Niftysmart"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^41.1.1",
+    "electron-builder": "^26.8.1"
+  }
+}
