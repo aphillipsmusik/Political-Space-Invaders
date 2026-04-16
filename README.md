@@ -1,4 +1,4 @@
-Niftysmart
+Political Space Invaders
 =====
 
-Niftysmart connects to your home
+This is a space invaders game but however, a satirical twist turns it into a space ship shooting the heads of trump, fauci, and bill gates.
